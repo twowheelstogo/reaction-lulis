@@ -73,3 +73,7 @@ docker-compose.override.yml
 .yalc/
 yalc.lock
 yalc-packages
+
+#api-plugin repositories
+
+api-plugins
