@@ -13,9 +13,9 @@ networks:
 
 services:
   api:
-    # image: reactioncommerce/reaction:3.11.1
-    build:
-      context: .
+    image: luiscelano/reaction-lulis:1.0.0
+    # build:
+    #   context: .
     depends_on:
       - mongo
     env_file:
