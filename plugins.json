@@ -36,5 +36,7 @@
   "sitemapGenerator": "@reactioncommerce/api-plugin-sitemap-generator",
   "notifications": "@reactioncommerce/api-plugin-notifications",
   "addressValidationTest": "@reactioncommerce/api-plugin-address-validation-test",
-  "paymentsEpay":"api-plugin-payments-epay"
+  "paymentsEpay":"api-plugin-payments-epay",
+  "billingExtension":"api-plugin-billing",
+  "giftExtension":"api-plugin-gift"
 }
