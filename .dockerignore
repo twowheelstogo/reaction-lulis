@@ -14,3 +14,4 @@ Dockerfile
 .reaction/docker/reaction.*
 docs
 node_modules
+api-plugins
