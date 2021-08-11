@@ -38,5 +38,6 @@
   "addressValidationTest": "@reactioncommerce/api-plugin-address-validation-test",
   "paymentsEpay":"api-plugin-payments-epay",
   "billingExtension":"api-plugin-billing",
-  "giftExtension":"api-plugin-gift"
+  "giftExtension":"api-plugin-gift",
+  "pickupExtension":"api-plugin-pickup-extension"
 }

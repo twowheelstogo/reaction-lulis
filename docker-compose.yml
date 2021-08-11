@@ -13,7 +13,8 @@ networks:
 
 services:
   api:
-    image: luiscelano/reaction-lulis:fix-shipping
+    #image: luiscelano/reaction-lulis:fix-shipping
+    image: reactioncommerce/reaction:3.11.1
     build:
       context: .
     depends_on:
