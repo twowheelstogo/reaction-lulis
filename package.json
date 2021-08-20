@@ -48,7 +48,7 @@
     "@reactioncommerce/api-plugin-pricing-simple": "~1.0.1",
     "@reactioncommerce/api-plugin-products": "github:twowheelstogo/api-plugin-products#trunk",
     "@reactioncommerce/api-plugin-settings": "~1.0.1",
-    "@reactioncommerce/api-plugin-shipments": "~1.0.1",
+    "@reactioncommerce/api-plugin-shipments": "github:twowheelstogo/api-plugin-shipments#development",
     "@reactioncommerce/api-plugin-shipments-flat-rate": "~1.0.3",
     "@reactioncommerce/api-plugin-shops": "~1.2.0",
     "@reactioncommerce/api-plugin-simple-schema": "~1.0.1",

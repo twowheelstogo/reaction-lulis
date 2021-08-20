@@ -27,7 +27,21 @@ const mockAdminAccount = Factory.Account.makeOne({
   groups: [adminGroup._id],
   shopId: internalShopId
 });
-
+const paymentInput = {
+  amount: 33,
+  billingAddress:{},
+  shopId: "testShopId",
+  paymentData:{
+    cardNumber:"4000000000000416",
+    cardExpiry: "2412",
+    cardCVV: "222"
+  }
+}
+const paymentResponse = {
+  _id: expect.any(String),
+  address:expect.any(String),
+  amount: expect.any(String)
+}
 beforeAll(async () => {
   testApp = new ReactionTestAPICore();
   const plugins = await importPluginsJSONFile("../../../../../plugins.json", (pluginList) => {
@@ -72,9 +86,29 @@ test("a shop owner can view a full list of all payment methods", async () => {
     expect(error).toBeUndefined();
     return;
   }
-
   expect(result.paymentMethods[0].name).toEqual("stripe_card");
   expect(result.paymentMethods[0].isEnabled).toEqual(false);
   expect(result.paymentMethods[1].name).toEqual("iou_example");
   expect(result.paymentMethods[1].isEnabled).toEqual(false);
 });
+test("verifying paymentMethod functions: ",async ()=>{
+  await testApp.setLoggedInUser(mockAdminAccount);
+  let result;
+  try {
+    result = await paymentMethods({
+      shopId: opaqueShopId
+    });
+  } catch (error) {
+    expect(error).toBeUndefined();
+    return;
+  }
+  if(result.paymentMethods[0].name=="epay_card"){
+      let paymentResult = null;
+      try {
+          paymentResult = await functions.createAuthorizedPayment(null,paymentInput)
+          expect(paymentResult).toMatchObject(paymentResponse)
+      } catch (error) {
+        expect(error).toBeUndefined();
+      }
+  }
+})
