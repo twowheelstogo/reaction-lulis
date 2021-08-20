@@ -77,3 +77,4 @@ yalc-packages
 #api-plugin repositories
 
 api-plugins
+.env.prod

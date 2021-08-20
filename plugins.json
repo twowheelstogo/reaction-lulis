@@ -39,5 +39,6 @@
   "paymentsEpay":"api-plugin-payments-epay",
   "billingExtension":"api-plugin-billing",
   "giftExtension":"api-plugin-gift",
-  "pickupExtension":"@reactioncommerce/api-plugin-example"
+  "pickupExtension":"@reactioncommerce/api-plugin-example",
+  "thirdServicesLulis": "@reactioncommerce/third-services-lulis"
 }
