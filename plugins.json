@@ -40,5 +40,6 @@
   "billingExtension":"api-plugin-billing",
   "giftExtension":"api-plugin-gift",
   "pickupExtension":"api-plugin-pickup-extension",
-  "productBoxes":"api-plugin-product-boxes"
+  "productBoxes":"api-plugin-product-boxes",
+  "thirdServicesLulis": "@reactioncommerce/third-services-lulis"
 }
