@@ -33,7 +33,6 @@
     "@reactioncommerce/api-plugin-email": "~1.0.1",
     "@reactioncommerce/api-plugin-email-smtp": "~1.0.1",
     "@reactioncommerce/api-plugin-email-templates": "~1.0.1",
-    "@reactioncommerce/api-plugin-example": "github:twowheelstogo/api-plugin-pickup-extension#development",
     "@reactioncommerce/api-plugin-files": "~1.0.13",
     "@reactioncommerce/api-plugin-i18n": "~1.0.0",
     "@reactioncommerce/api-plugin-inventory": "~1.0.2",
@@ -68,19 +67,12 @@
     "@reactioncommerce/third-services-lulis": "github:twowheelstogo/api-plugin-third-services-lulis#trunk",
     "api-plugin-billing": "github:twowheelstogo/api-plugin-billing#development",
     "api-plugin-gift": "github:twowheelstogo/api-plugin-gift#development",
-<<<<<<< HEAD
     "api-plugin-payments-epay": "github:twowheelstogo/api-plugin-payments-epay#f_pay",
+    "api-plugin-pickup-extension": "github:twowheelstogo/api-plugin-pickup-extension#development",
+    "api-plugin-product-boxes": "github:twowheelstogo/api-plugin-product-boxes#trunk",
     "graphql": "~14.6.0",
     "semver": "~6.3.0",
-    "simpl-schema": "^1.12.0",
-    "api-plugin-pickup-extension": "github:twowheelstogo/api-plugin-pickup-extension#development",
-    "api-plugin-product-boxes": "github:twowheelstogo/api-plugin-product-group#trunk"
-=======
-    "api-plugin-payments-epay": "github:twowheelstogo/api-plugin-payments-epay#main",
-    "graphql": "^14.6.0",
-    "semver": "^6.3.0",
     "simpl-schema": "^1.12.0"
->>>>>>> cf65eab34055a66f4ab2fbbfb84da68f7b47c926
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
