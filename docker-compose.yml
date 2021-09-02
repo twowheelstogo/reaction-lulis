@@ -13,7 +13,8 @@ networks:
 
 services:
   api:
-    image: luiscelano/reaction-lulis:1.0.1
+    image: luiscelano/reaction-lulis:pre-launch
+    #image: reactioncommerce/reaction:3.11.1
     build:
       context: .
     depends_on:
@@ -25,6 +26,9 @@ services:
       reaction:
     ports:
       - "3000:3000"
+    # volumes:
+      # - ./package-lock.json:/usr/local/src/app/package-lock.json
+      # - ./package.json:/usr/local/src/app/package.json
 
   mongo:
     image: mongo:4.2.0

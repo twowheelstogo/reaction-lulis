@@ -24,7 +24,7 @@
   "orders": "@reactioncommerce/api-plugin-orders",
   "payments": "@reactioncommerce/api-plugin-payments",
   "paymentsStripe": "@reactioncommerce/api-plugin-payments-stripe",
-  "paymentsExample": "@reactioncommerce/api-plugin-payments-example",
+  "paymentsCash": "@reactioncommerce/api-plugin-payments-example",
   "discounts": "@reactioncommerce/api-plugin-discounts",
   "discountCodes": "@reactioncommerce/api-plugin-discounts-codes",
   "surcharges": "@reactioncommerce/api-plugin-surcharges",
@@ -36,5 +36,10 @@
   "sitemapGenerator": "@reactioncommerce/api-plugin-sitemap-generator",
   "notifications": "@reactioncommerce/api-plugin-notifications",
   "addressValidationTest": "@reactioncommerce/api-plugin-address-validation-test",
-  "paymentsEpay":"api-plugin-payments-epay"
+  "paymentsEpay":"api-plugin-payments-epay",
+  "billingExtension":"api-plugin-billing",
+  "giftExtension":"api-plugin-gift",
+  "pickupExtension":"api-plugin-pickup-extension",
+  "productBoxes":"api-plugin-product-boxes",
+  "thirdServicesLulis": "@reactioncommerce/third-services-lulis"
 }
