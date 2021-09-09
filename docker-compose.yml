@@ -26,9 +26,9 @@ services:
       reaction:
     ports:
       - "3000:3000"
-    # volumes:
-      # - ./package-lock.json:/usr/local/src/app/package-lock.json
-      # - ./package.json:/usr/local/src/app/package.json
+    volumes:
+      - ./package-lock.json:/usr/local/src/app/package-lock.json
+      - ./package.json:/usr/local/src/app/package.json
 
   mongo:
     image: mongo:4.2.0
