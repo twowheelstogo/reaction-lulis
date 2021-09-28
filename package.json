@@ -66,15 +66,15 @@
     "@reactioncommerce/random": "~1.0.2",
     "@reactioncommerce/third-services-lulis": "github:twowheelstogo/api-plugin-third-services-lulis#trunk",
     "api-plugin-billing": "github:twowheelstogo/api-plugin-billing#development",
+    "api-plugin-draft-orders": "github:twowheelstogo/api-plugin-draft-orders#trunk",
     "api-plugin-gift": "github:twowheelstogo/api-plugin-gift#development",
     "api-plugin-payments-epay": "github:twowheelstogo/api-plugin-payments-epay#f_pay",
+    "api-plugin-payments-none": "github:twowheelstogo/api-plugin-payments-none#trunk",
     "api-plugin-pickup-extension": "github:twowheelstogo/api-plugin-pickup-extension#development",
     "api-plugin-product-boxes": "github:twowheelstogo/api-plugin-product-boxes#trunk",
     "graphql": "^14.6.0",
     "semver": "^6.3.0",
-    "simpl-schema": "^1.12.0",
-    "api-plugin-draft-orders": "github:twowheelstogo/api-plugin-draft-orders#trunk",
-    "api-plugin-payments-none": "github:twowheelstogo/api-plugin-payments-none#trunk"
+    "simpl-schema": "^1.12.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
