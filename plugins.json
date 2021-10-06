@@ -36,12 +36,13 @@
   "sitemapGenerator": "@reactioncommerce/api-plugin-sitemap-generator",
   "notifications": "@reactioncommerce/api-plugin-notifications",
   "addressValidationTest": "@reactioncommerce/api-plugin-address-validation-test",
-  "paymentsEpay":"api-plugin-payments-epay",
-  "billingExtension":"api-plugin-billing",
-  "giftExtension":"api-plugin-gift",
-  "pickupExtension":"api-plugin-pickup-extension",
-  "productBoxes":"api-plugin-product-boxes",
+  "paymentsEpay": "api-plugin-payments-epay",
+  "billingExtension": "api-plugin-billing",
+  "giftExtension": "api-plugin-gift",
+  "pickupExtension": "api-plugin-pickup-extension",
+  "productBoxes": "api-plugin-product-boxes",
   "thirdServicesLulis": "@reactioncommerce/third-services-lulis",
   "draftOrders": "api-plugin-draft-orders",
-  "paymentsNone": "api-plugin-payments-none"
+  "paymentsNone": "api-plugin-payments-none",
+  "printerIntegration": "api-plugin-printer-integration"
 }
