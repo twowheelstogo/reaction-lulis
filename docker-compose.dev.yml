@@ -19,8 +19,8 @@ services:
     volumes:
       - .:/usr/local/src/app:cached
       - api_node_modules:/usr/local/src/app/node_modules # do not link node_modules in, and persist it between dc up runs
-      - ./package-lock.json:/usr/local/src/app/package-lock.json
-      - ./package.json:/usr/local/src/app/package.json
+      # - ./package-lock.json:/usr/local/src/app/package-lock.json
+      # - ./package.json:/usr/local/src/app/package.json
 
 volumes:
   mongo-db4:
