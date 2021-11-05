@@ -1,6 +1,6 @@
 {
   "name": "reaction-api",
-  "version": "3.11.2",
+  "version": "3.11.3",
   "description": "Reaction is a modern reactive, real-time event driven ecommerce platform.",
   "main": "./src/index.js",
   "type": "module",
@@ -40,7 +40,7 @@
     "@reactioncommerce/api-plugin-job-queue": "~1.0.2",
     "@reactioncommerce/api-plugin-navigation": "~1.1.1",
     "@reactioncommerce/api-plugin-notifications": "~1.0.1",
-    "@reactioncommerce/api-plugin-orders": "github:twowheelstogo/api-plugin-orders#development",
+    "@reactioncommerce/api-plugin-orders": "github:twowheelstogo/api-plugin-orders#trunk",
     "@reactioncommerce/api-plugin-payments": "github:twowheelstogo/api-plugin-payments#trunk",
     "@reactioncommerce/api-plugin-payments-example": "github:luiscelanomrb/api-plugin-payments-cash#development",
     "@reactioncommerce/api-plugin-payments-stripe": "~1.0.1",
@@ -74,6 +74,7 @@
     "api-plugin-printer-integration": "github:twowheelstogo/api-plugin-printer-integration#trunk",
     "api-plugin-product-boxes": "github:twowheelstogo/api-plugin-product-boxes#trunk",
     "graphql": "^14.6.0",
+    "node-cron": "^3.0.0",
     "semver": "^6.3.0",
     "simpl-schema": "^1.12.0"
   },
