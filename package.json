@@ -40,7 +40,7 @@
     "@reactioncommerce/api-plugin-job-queue": "~1.0.2",
     "@reactioncommerce/api-plugin-navigation": "~1.1.1",
     "@reactioncommerce/api-plugin-notifications": "~1.0.1",
-    "@reactioncommerce/api-plugin-orders": "github:twowheelstogo/api-plugin-orders#trunk",
+    "@reactioncommerce/api-plugin-orders": "github:twowheelstogo/api-plugin-orders#development",
     "@reactioncommerce/api-plugin-payments": "github:twowheelstogo/api-plugin-payments#trunk",
     "@reactioncommerce/api-plugin-payments-example": "github:luiscelanomrb/api-plugin-payments-cash#development",
     "@reactioncommerce/api-plugin-payments-stripe": "~1.0.1",
