@@ -13,8 +13,8 @@ networks:
 
 services:
   api:
-    #image: luiscelano/reaction-lulis:production
-    image: luiscelano/reaction-lulis:3.11.6
+    image: luiscelano/reaction-lulis:production
+    # image: luiscelano/reaction-lulis:3.11.6
     build:
       context: .
     depends_on:
