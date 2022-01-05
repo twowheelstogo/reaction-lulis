@@ -44,5 +44,6 @@
   "thirdServicesLulis": "@reactioncommerce/third-services-lulis",
   "draftOrders": "api-plugin-draft-orders",
   "paymentsNone": "api-plugin-payments-none",
-  "printerIntegration": "api-plugin-printer-integration"
+  "printerIntegration": "api-plugin-printer-integration",
+  "branches": "@reactioncommerce/api-plugin-branch"
 }
