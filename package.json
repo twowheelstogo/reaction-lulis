@@ -71,7 +71,7 @@
     "api-plugin-gift": "github:twowheelstogo/api-plugin-gift#development",
     "api-plugin-payments-epay": "github:twowheelstogo/api-plugin-payments-epay#f_pay",
     "api-plugin-payments-none": "github:twowheelstogo/api-plugin-payments-none#trunk",
-    "api-plugin-pickup-extension": "github:twowheelstogo/api-plugin-pickup-extension#development-diego",
+    "api-plugin-pickup-extension": "github:twowheelstogo/api-plugin-pickup-extension#development",
     "api-plugin-printer-integration": "github:twowheelstogo/api-plugin-printer-integration#trunk",
     "api-plugin-product-boxes": "github:twowheelstogo/api-plugin-product-boxes#trunk",
     "graphql": "^14.6.0",
