@@ -123,7 +123,7 @@ jobs:
           command: |
             docker build -t ${DOCKER_REPOSITORY}:production .
             docker login -u ${DOCKER_USER} -p ${DOCKER_PASS}
-            docker push ${DOCKER_REPOSITORY}:development
+            docker push ${DOCKER_REPOSITORY}:production
 
 workflows:
   version: 2
