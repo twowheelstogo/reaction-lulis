@@ -30,7 +30,7 @@
     "@reactioncommerce/api-plugin-carts": "github:twowheelstogo/api-plugin-carts#development",
     "@reactioncommerce/api-plugin-catalogs": "github:twowheelstogo/api-plugin-catalogs#trunk",
     "@reactioncommerce/api-plugin-discounts": "~1.0.1",
-    "@reactioncommerce/api-plugin-discounts-codes": "~1.1.1",
+    "@reactioncommerce/api-plugin-discounts-codes": "github:twowheelstogo/api-plugin-discounts-codes#trunk",
     "@reactioncommerce/api-plugin-email": "~1.0.1",
     "@reactioncommerce/api-plugin-email-smtp": "~1.0.1",
     "@reactioncommerce/api-plugin-email-templates": "~1.0.1",
