@@ -6,7 +6,7 @@ version: 2
 defaults: &defaults
   environment:
     CI_SCRIPTS: 'npx --quiet --package @reactioncommerce/ci-scripts@1.6.2'
-    DOCKER_REPOSITORY: "luiscelano/reaction-lulis"
+    DOCKER_REPOSITORY: "loginsolutions/reaction-lulis"
     DOCKER_NAMESPACE: "luiscelano"
     DOCKER_NAME: "luiscelano"
   docker:
